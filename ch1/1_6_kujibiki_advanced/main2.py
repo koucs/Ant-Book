@@ -6,7 +6,7 @@ import sys
 # Ant-Book.main.py
 # Date: 2021/08/05
 # Filename: main.py 
-# Author: acttrd
+# Author: koucs
 
 sys.setrecursionlimit(10 ** 8)
 INF = float('inf')
