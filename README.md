@@ -1,7 +1,13 @@
 #### プログラミングコンテストチャレンジブック（第2版)
 
-### compare
+### Test sample
 
 ```shell
-$ diff <(python main.py < input-1.in) ./input-1.out
+$ diff -Zu  <(python main.py < sample-1.in) <(cat ./sample-1.out)
+--- /dev/fd/63  2021-12-05 08:34:58.818064233 +0900
++++ /dev/fd/62  2021-12-05 08:34:58.818064233 +0900
+@@ -1 +1 @@
+-3
++2
+\ No newline at end of file
 ```
