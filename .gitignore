@@ -127,6 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea/**/*
+
 /.idea/Ant-Book.iml
 /.idea/misc.xml
 /.idea/modules.xml
