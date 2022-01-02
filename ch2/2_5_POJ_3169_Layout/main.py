@@ -18,7 +18,7 @@ def main():
     for i in range(MD):
         AD[i], BD[i], DD[i] = map(int, input().split())
 
-    d = [0] * (N)
+    d = [0] * N
 
     def update(x: int, y: int, i: int):
         global updated
