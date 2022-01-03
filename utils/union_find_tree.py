@@ -1,14 +1,12 @@
 #! env python
 # -*- coding: utf-8 -*-
 import datetime
-import sys
 
 # Ant-Book.union_find_tree.py
 # Date: 2021/12/30
 # Filename: union_find_tree.py
 # Author: koucs
 
-INF = float('inf')
 par = list()  # parent of each element
 rank = list()  # depth of each element
 
