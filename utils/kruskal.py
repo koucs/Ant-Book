@@ -1,17 +1,16 @@
 #! env python
 # -*- coding: utf-8 -*-
 
-from collections import defaultdict
-import sys, heapq, bisect, math, itertools, string, queue, datetime, unittest
-
 # Ant-Book.krusukal.py
 # Date: 2022/01/02
 # Filename: krusukal.py 
 # Author: koucs
 
-from typing import List
 import operator
+from typing import List
+
 from union_find_tree import init, same, unite
+
 
 class Edge:
     def __init__(self, u: int, v: int, cost: int):
